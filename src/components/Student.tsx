@@ -13,13 +13,13 @@ export default function Student( data: Data ) {
         <>
             <Typography component="p" variant="h4">
                 
-                {data.apellidos + " " + data.nombres}
+                {data.apellidos} {data.nombres}
 
             </Typography>
             <Typography component="h2" variant="h6"
                 color="primary" gutterBottom>
 
-                {"Paralelo #" + data.paralelo}
+                Paralelo # {data.paralelo}
 
             </Typography>
         </>
